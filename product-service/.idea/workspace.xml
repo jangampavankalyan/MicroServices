@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c94fa8-df21-4255-93b4-2b81102c21e1" name="Changes" comment="" />
+    <list default="true" id="c5c94fa8-df21-4255-93b4-2b81102c21e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jangampavankalyan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jangampavankalyan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:jangampavankalyan03/MicroService.git",
-    "accountId": "ba4c36a8-0c6e-4729-a475-ea73a49d5662"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jangampavankalyan03/MicroService.git&quot;,
+    &quot;accountId&quot;: &quot;ba4c36a8-0c6e-4729-a475-ea73a49d5662&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -61,7 +64,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "order-service",
+    "git-widget-placeholder": "api-gateway",
     "last_opened_file_path": "C:/Users/Pavan Kalyan/Desktop/Learnings/Microservices/product-service",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -79,7 +82,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceApplicationTests">
+  <component name="RunManager" selected="Application.ProductServiceApplication">
     <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.product_service.ProductServiceApplication" />
       <module name="product-service" />
@@ -110,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductServiceApplicationTests" />
         <item itemvalue="Application.ProductServiceApplication" />
+        <item itemvalue="JUnit.ProductServiceApplicationTests" />
       </list>
     </recent_temporary>
   </component>
