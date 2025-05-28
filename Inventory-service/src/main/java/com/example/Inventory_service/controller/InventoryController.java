@@ -1,6 +1,6 @@
-package com.example.inventory_service.controller;
+package com.example.Inventory_service.controller;
 
-import com.example.inventory_service.service.InventoryService;
+import com.example.Inventory_service.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
