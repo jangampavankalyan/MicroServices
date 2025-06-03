@@ -42,7 +42,7 @@ public class OrderService {
             //Send the message to Kafka Topic
             OrderPlacedEvent orderPlacedEvent = new OrderPlacedEvent(order.getOrderNumber(),orderRequest.userDetails().email());
             log.info("Start - Sending OrderPlacedEvent {} to Kafka topic order-placed", orderPlacedEvent);
-            kafkaTemplate.send("Order Placed ", orderPlacedEvent);
+            kafkaTemplate.send("Order_Placed", orderPlacedEvent);
             log.info("End - Sending OrderPlacedEvent {} to Kafka topic order-placed", orderPlacedEvent);
         }
         else {

@@ -1,4 +1,4 @@
-package com.example.order_service.event;
+package com.example.notification_service.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderPlacedEvent {
-
     private String orderNumber;
     private String email;
 }
